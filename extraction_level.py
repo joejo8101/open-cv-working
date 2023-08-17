@@ -181,6 +181,7 @@ for image in images:
 
         if found_title:
             data_dict = {"Title": found_title}
+            print(text)
             rows = text.strip().split("\n")
             header_row = rows[0].split("\t")  # Assuming tab-separated columns
 
